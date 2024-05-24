@@ -1,0 +1,45 @@
+/* .header {
+  text-align: center;
+  color: #61dafb;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todo{
+  font-size: 20px;
+  margin-top: 10px;
+}
+.delete{
+  background-color: red;
+  font-size: 15px;
+  padding: 6px;
+  margin-left: 30px;
+} */
+
+/* App.css */
+
+/* Add margin and padding to the container */
+.App {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style for each todo row */
+.todo-row {
+  margin-bottom: 20px;
+}
+
+/* Style for the delete and edit buttons */
+.todo .delete,
+.todo .update {
+  margin-left: 10px; /* Adjust the spacing between buttons */
+}
+
+/* Additional styling for input and buttons */
+input[type="text"],
+button {
+  margin-top: 10px; /* Add spacing above input and buttons */
+}
